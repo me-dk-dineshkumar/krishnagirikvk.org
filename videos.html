@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>KVK | Video Gallery</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+ <!-- Favicons -->
+<!--<link href="assets/img/favicon.png" rel="icon">-->
+<link rel="icon" href="assets/images/apple-touch-icon.png" >
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- CSS Style -->
+
+  <style>
+  section ul {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 0px;
+  font-family:sans-serif;
+  font-size: small;
+  padding-left: 0px;
+}
+section ul li{
+  list-style: none;
+  background: #eee;
+  padding: 4px 10px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor:pointer;
+  text-align: center;
+  margin: 10px 10px;  
+}
+section ul li.active{
+  background: #4caf50;
+  color: #fff;
+}
+.videogalery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.videogalery .itemBox{
+  position: relative;
+  margin: 15px;
+}
+.list{
+  border-radius: 20px;
+}
+.itemBox iframe{
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px black;
+}
+
+  </style>
+
+  <!-- CSS End -->
+  
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+  <!-- HEADER -->
+  <header class="top-header">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-sm-3">
+            <p style="font-weight: lighter; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;In Service of Rural Mass, TNBRD | <b>Thiruvannamalai District</b></p>
+          </div>
+          <div class="col-md-8 col-sm-9 text-align-right" style="text-align: right;">
+            <span class="phone-icon"><i class="fa fa-phone"></i> +91 80982 80123</span>
+            <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 09:00 AM - 05:00 PM (Mon - Sat)</span>
+            <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:kvk.Krishnagiri@icar.gov.in"> kvk.Krishnagiri@icar.gov.in</a></span>
+          </div>
+        </div>
+    </div>
+  </header>
+  
+</body>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  
+  <header id="header" class="header">
+    <div class="container-fluid">
+      <div class="main-logo mobile-hide" style="padding-top: 15px;">
+        <div class="icarlogo">
+          <img src="assets/images/icarlogo.png" width="80" height="80" alt="icar-logo">
+        </div>        
+        <!-- <img src="assets/images/header.png" width="700" height="100" alt="top-header-pic">   -->
+        
+        <div class="header-title">
+          <center>
+            <h1 style="font-weight: bold; font-style: normal; color: green;"><b>ICAR - Krishi Vigyan Kendra </b></h1>
+            <h3 class="kgiridt">Krishnagiri District, Tamil Nadu</h3>
+          </center>
+        </div>
+       
+        <div class="tnbrdlogo">
+          <img src="assets/images/tnbrdlogo.png" onclick="darkMode()" width="80" height="80" alt="tnbrd-logo">
+        </div>
+      </div>        
+      
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <style>
+    @media screen and (max-width:980px){
+      .mobile-nav-toggle{
+        display: none;
+      }
+    }
+  </style>
+
+  <main id="main">
+    
+    <i class="bi bi-list mobile-nav-toggle"></i>
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Gallery</li>
+        </ol>
+        <h2>Videos</h2>
+
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+
+    <!-- <section class="inner-page">
+      <div class="container">
+        <p>
+          Example inner page template
+        </p>
+      </div>
+    </section> -->
+    <section id="portfolio" class="inner-page portfolio" style="padding-bottom: 0%;">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header" style="padding-bottom: 20px;">
+          <p>Video Gallery</p>
+        </header>
+
+
+        <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <ul class="you-tube-mobile-view" >
+          <li class="list active" data-filter="all">All</li>
+          <li class="list" data-filter="hs">Value Addition</li>
+          <li class="list" data-filter="as">Animal Husbandary</li>
+          <li class="list" data-filter="ae">Farm Mechanization</li>
+          <li class="list" data-filter="tech">Crop Management</li>
+          <li class="list" data-filter="act">KVK | Activities</li>   
+          <li class="list" data-filter="other">Others</li>          
+        </ul>
+            <div class="videogalery">
+              
+              <div class="itemBox other">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/Q7fX0YoqtEU?si=fTpo4fEhg-ieJs1o" title="Farmers Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+
+              <div class="itemBox other">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/pKC305muTPc?si=xDgob0x_59KaLwLF" title="Farmers Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+            
+              <div class="itemBox other">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/v8G0i49RY3U?si=fOQA5SFxF-mPHTBI" title="Farmers Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              
+              <div class="itemBox other">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/4XGGc3C702A" title="Farmers Success Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+
+              <div class="itemBox other">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/nLRST0SejF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+
+              <div class="itemBox other">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/y-TXOTcDJtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+
+              <div class="itemBox as">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/JWbpIRZGq0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/hucc621auTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+
+              <div class="itemBox as">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/znljTny947M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox act">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/EKLH7Nik9Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox tech">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/HB3KEbno_Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox act">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/A7gTlsV1ulE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox as">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/i4dLNYThj1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/X8qg-GAQUSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox tech">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/6yURNfI257I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/_GOH4mzHEwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox tech">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/ORHZU0eXERM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox as">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/4zgFwRt6H48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox ae">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/IoO4b2uyRLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/m1HjY8_nHqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/6LX-UirKtmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/Bn55vZHh5fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+              <div class="itemBox hs">
+                <iframe width="340" height="240" src="https://www.youtube.com/embed/Bn55vZHh5fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+                </iframe>     
+              </div>
+            </div>     
+    </section>
+
+    <!-- End Portfolio Section -->
+
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer" class="footer">
+  <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ICAR | Krishi Vigyan Kendra, </span>Krishnagiri</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Develop by <a href="https://www.facebook.com/naga.dineshkumar">DiNeSh KuMaR</a>
+      </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/galery.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.list').click(function(){
+      const value=$(this).attr('data-filter');
+      if(value=='all'){
+        $('.itemBox').show('1000');
+      }
+      else{
+        $('.itemBox').not('.'+value).hide('1000');
+        $('.itemBox').filter('.'+value).show('1000');
+      }
+    })
+    $('.list').click(function(){
+      $(this).addClass('active').siblings().removeClass('active');
+    })
+  })
+  </script>
+
+
+</body>
+
+</html>

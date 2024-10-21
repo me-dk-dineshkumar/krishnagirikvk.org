@@ -1,0 +1,871 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>KVK | Extension Activities</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <!--<link href="assets/img/favicon.png" rel="icon">-->
+    <link rel="icon" href="assets/images/apple-touch-icon.png" >
+
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+
+    .content{
+      transition: transform .5s;
+    }
+    .content:hover {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.06);       
+    }
+
+    .myBtnContainer{
+      background-color:green;
+      color: white;
+      border: none;
+      padding: 6px 6px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+      
+          /* Center website */
+          .main {
+            max-width: 1000px;
+            margin: auto;
+          }
+          
+          
+          /* Add padding BETWEEN each column */
+          
+          .row > .column {
+            padding: 8px;
+          }
+          
+          /* Create three equal columns that floats next to each other */
+          .column {
+            float: left;
+            width: 25%;
+            display:none; /* Hide all elements by default */
+          }
+
+          .column:hover{
+            color: green;            
+          }
+          
+          /* Clear floats after rows */ 
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          
+          /* The "show" class is added to the filtered elements */
+          .show {
+            display: block;
+          }
+    
+          
+          /* Style the buttons */
+          .btn {
+            border: none;
+            outline: none;
+            font-size: small;
+            font-weight: medium;
+            padding: 12px 16px;
+            background-color: white;
+            cursor: pointer;
+            border-radius: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+          }
+          
+          select:hover{
+            background-color: white;
+            color: green;
+            border-bottom: green;  
+            transition: 0.8s all ease-in-out;          
+          }
+
+          select{
+            transition: 0.6s all ease-in-out;  
+          }
+
+          .row .column .content img{
+            width: 100%; 
+            box-shadow:  3px 3px 10px gray;            
+          }
+
+          .row .column .content h6{
+            padding: 8px 0 4px 0;
+            margin: 0 10px 0 10px;
+            text-align: center;
+          }
+
+          @media screen and (max-width:980px){
+            .content{
+              font-size:large;
+            }
+            .column{
+              width: 90%;
+              margin: auto;
+            }
+          }
+          </style>
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.1.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+  <!-- HEADER -->
+  <header class="top-header">
+    <div class="container">
+      <div class="row">
+         <div class="col-md-4 col-sm-3">
+            <p style="font-weight: lighter; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;In Service of Rural Mass, TNBRD | <b>Thiruvannamalai District</b></p>
+          </div>
+          <div class="col-md-8 col-sm-9 text-align-right" style="text-align: right;">
+            <span class="phone-icon"><i class="fa fa-phone"></i> +91 80982 80123</span>
+            <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 09:00 AM - 05:00 PM (Mon - Sat)</span>
+            <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:kvk.Krishnagiri@icar.gov.in"> kvk.Krishnagiri@icar.gov.in</a></span>
+          </div>
+        </div>
+    </div>
+  </header>
+  
+</body>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  
+  <header id="header" class="header">
+    <div class="container-fluid">
+      <div class="main-logo mobile-hide" style="padding-top: 15px;">
+        <div class="icarlogo">
+          <img src="assets/images/icarlogo.png" width="80" height="80" alt="icar-logo">
+        </div>        
+        <!-- <img src="assets/images/header.png" width="700" height="100" alt="top-header-pic">   -->
+        <div class="header-title">
+          <center>
+            <h1 style="font-weight: bold; font-style: normal; color: green;"><b>ICAR - Krishi Vigyan Kendra </b></h1>
+            <h3 class="kgiridt">Krishnagiri District, Tamil Nadu</h3>
+          </center>
+        </div>
+        
+        <div class="tnbrdlogo">
+          <img src="assets/images/tnbrdlogo.png" onclick="darkMode()" width="80" height="80" alt="tnbrd-logo">
+        </div>
+        
+      </div>
+    </div>
+  </header>
+      <!-- End Header -->
+
+      <style>
+        @media screen and (max-width:980px){
+          .mobile-nav-toggle{
+            display: none;
+          }
+        }
+      </style>
+
+    <main id="main">
+      
+      <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section class="breadcrumbs">
+            <div class="container">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                </ol>
+                <h2>Extension Activities</h2>
+            </div>
+        </section>
+        <br>
+        <!-- End Breadcrumbs -->
+
+        <div class="container" data-aos="fade-up">
+          <div class="row">            
+            <h4 style="color: black;">
+              <b style="content: justify;">
+                KVK disseminate the successful technologies to most of the farmers in the district through the Extension Activities. 
+              </b>                             
+            </h4>
+             <p>
+               <b>
+                The following activities are regularly conducting for wider coverage of the district.
+              </b>
+            </p>
+                                                                                            
+           </div> 
+         
+         <center>
+          <select class="myBtnContainer">
+            <div id="myBtnContainer">
+              <option class="btn active" onclick="filterSelection('all')"> Show all</option>
+              <option class="btn" onclick="filterSelection('exhibition')"> Exhibition</option>
+              <option class="btn" onclick="filterSelection('methoddemo')"> Method Demonstration</option>
+              <option class="btn" onclick="filterSelection('groupdiscussion')"> Group Discussion</option>
+              <option class="btn" onclick="filterSelection('visittofarmerfield')"> Scientist Visits to Farmer Field</option>
+              <option class="btn" onclick="filterSelection('kisanmela')"> Kisan Mela</option> 
+              <option class="btn" onclick="filterSelection('kisangosthi')"> Kisan Gosthi</option>
+              <option class="btn" onclick="filterSelection('ffs')"> Farmers Field School</option>
+              <option class="btn" onclick="filterSelection('animal')"> Animal Campaign</option>
+              <option class="btn" onclick="filterSelection('soil')"> Soil Campaign</option>             
+              <option class="btn" onclick="filterSelection('seminar')"> Seminar</option>
+              <option class="btn" onclick="filterSelection('filmshow')"> Film Show</option>
+              <option class="btn" onclick="filterSelection('exposurevisit')"> Exposure Visit</option>
+              <option class="btn" onclick="filterSelection('awareprog')"> Awareness Programme</option>
+              <option class="btn" onclick="filterSelection('guestlecture')"> Lecture Delivered as a Resource Person</option> 
+              <option class="btn" onclick="filterSelection('fieldday')"> Field Day</option>
+              <option class="btn" onclick="filterSelection('visittokvk')"> Farmers Visit to KVK</option>
+              <option class="btn" onclick="filterSelection('tvtalk')"> Radio/ TV Talk</option>
+            </div>
+          </select>
+         </center>
+
+          <div class="row" style="padding-top: 15px;">
+
+            <div class="column exhibition">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/1.jpeg" alt="">
+                <h6>29th Mango Exhibition</h6>
+              </div>
+            </div>
+            
+            <div class="column exhibition">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/24.jpeg" alt="">
+                <h6>Natural farming in International Agri Science conference</h6>
+              </div>
+            </div>
+
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/4.jpeg" alt="">
+                <h6>International Millet Conference</h6>
+              </div>
+            </div>
+            
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/5.JPG" alt="">
+                <h6>Awareness programme on Millet</h6>
+              </div>
+            </div>
+
+            <div class="column visittofarmerfield">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/7.jpeg" alt="">
+                <h6>Diagnostic field visi to Redgram field</h6>
+              </div>
+            </div>
+
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/3.jpeg" alt="">
+                <h6>Genetic Diversity Fair and International Year of Millets</h6>
+              </div>
+            </div>
+            
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/31.jpeg" alt="">
+                <h6>Special Campaign 3.0 (02 - 31 October, 2023)</h6>
+              </div>
+            </div>
+
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/30.jpeg" alt="">
+                <h6>Parthenium Awareness Programme Week</h6>
+              </div>
+            </div>
+
+            <div class="column fieldday">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/12.JPG" alt="">
+                <h6>Field day - High yielding Little millet variety ATL 1</h6>
+              </div>
+            </div>
+
+            <div class="column visittofarmerfield">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/8.jpeg" alt="">
+                <h6>Diagnostic field visit to Tomato</h6>
+              </div>
+            </div>
+
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/32.JPG" alt="">
+                <h6>Swachhata Hi Sewa (SHS) - Swachhata Pledge taken by Farmers and Students</h6>
+              </div>
+            </div>
+
+            <div class="column exposurevisit">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/10.jpeg" alt="">
+                <h6>Exposure visit to IIHR Horticulture Fair</h6>
+              </div>
+            </div>
+
+            <div class="column fieldday">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/11.jpeg" alt="">
+                <h6>Field day - Groundnut</h6>
+              </div>
+            </div>
+
+            <div class="column visittofarmerfield">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/9.jpeg" alt="">
+                <h6>Diagnostic field visit to Mango</h6>
+              </div>
+            </div>
+
+            <div class="column visittofarmerfield">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/27.jpeg" alt="">
+                <h6>Diagnostic field visit to Banana</h6>
+              </div>
+            </div>
+
+            <div class="column awareprog">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/6.jpeg" alt="">
+                <h6>Natural farming</h6>
+              </div>
+            </div>
+
+            <div class="column methoddemo">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/19.jpeg" alt="">
+                <h6>Foliar Nutrition Sprays on Ragi</h6>
+              </div>
+            </div>
+
+            <div class="column visittofarmerfield">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/28.jpeg" alt="">
+                <h6>Diagnostic field visit to Tomato</h6>
+              </div>
+            </div>
+
+            <div class="column exposurevisit">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/29.jpeg" alt="">
+                <h6>State Level Agricultural Exhibition 2023</h6>
+              </div>
+            </div>
+
+            <div class="column tvtalk">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/26.jpeg" alt="">
+                <h6>Integrated Pest and Disease Management in Mango</h6>
+              </div>
+            </div>
+
+            <div class="column animal">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/2.jpeg" alt="">
+                <h6>Animal Health Camp 2023</h6>
+              </div>
+            </div>
+
+            <div class="column guestlecture">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/17.jpeg" alt="">
+                <h6>IPM Practices</h6>
+              </div>
+            </div>
+
+            <div class="column tvtalk">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/25.jpeg" alt="">
+                <h6>AIR live recording due to World food safety day</h6>
+              </div>
+            </div>
+
+            <div class="column exposurevisit">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/22.jpeg" alt="">
+                <h6>Millet Mela Dharmapuri</h6>
+              </div>
+            </div>
+
+            <div class="column exhibition">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/21.jpeg" alt="">
+                <h6>Millet Exhibition</h6>
+              </div>
+            </div>
+
+            <div class="column methoddemo">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/20.jpeg" alt="">
+                <h6>Groundnut decortication</h6>
+              </div>
+            </div>
+
+            <div class="column guestlecture">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/18.jpeg" alt="">
+                <h6>Value addition on Fruit and Vegetables</h6>
+              </div>
+            </div>
+
+            <div class="column exhibition">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/23.jpeg" alt="">
+                <h6>Millet mela exhibition</h6>
+              </div>
+            </div>
+
+            <div class="column guestlecture">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/16.jpeg" alt="">
+                <h6>Clean milk production techniques</h6>
+              </div>
+            </div>
+
+            <div class="column kisanmela">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/15.jpeg" alt="">
+                <h6>Kisan Mela</h6>
+              </div>
+            </div>
+
+            <div class="column groupdiscussion">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/14.jpeg" alt="">
+                <h6>Group discussion</h6>
+              </div>
+            </div>
+
+            <div class="column filmshow">
+              <div class="content">
+                <img src="assets/images/extension-activities/2023/13.JPG" alt="">
+                <h6>Film show</h6>
+              </div>
+            </div>
+
+            <div class="column exhibition">
+              <div class="content">
+                <img src="assets/images/extension-activities/KVK Krishnagiri - Exhibition (During Technology Week).JPG" alt="">
+                <h6>Exhibition Conducted during Technology Week</h6>
+              </div>
+            </div>
+          
+              <div class="column groupdiscussion">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Group Discussion.JPG" alt="">
+                  <h6>Farmers Group Discussion</h6>
+                </div>
+              </div>
+
+              <div class="column fieldday">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Field Day - Groudnut Cultivation.JPG" alt="">
+                  <h6>Field Day on Groundnut Cultivation</h6>
+                </div>
+              </div>
+
+              <div class="column kisanmela">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Kisan Mela.JPG" alt="">
+                  <h6>Kisan Mela</h6>
+                </div>
+              </div>
+
+              <div class="column soil">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Soil Health Campaign (2).JPG" alt="">
+                  <h6>Soil Health Campaign</h6>
+                </div>
+              </div>
+
+              <div class="column guestlecture">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Lecture Delivered as a Resource Person.jpeg" alt="">
+                  <h6>Lecture Delivered as a Resource Person </h6>
+                </div>
+              </div>
+
+              <div class="column methoddemo">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Method Demonstration - Wild Boar Management (Herboliv).jpeg" alt="">
+                  <h6>Wild Boar Management </h6>
+                </div>
+              </div>
+
+              <div class="column fieldday">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Field Day - Paddy.jpeg" alt="">
+                  <h6>Field Day on Paddy</h6>
+                </div>
+              </div>
+
+              
+              <div class="column awareprog">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Awareness Programme - JSA.JPG" alt="">
+                  <h6>Awareness Programme on JSA</h6>
+                </div>
+              </div>
+
+              <div class="column methoddemo">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Method Demonstration - Fruit Fly Trap.jpeg" alt="">
+                  <h6>Fruit Fly Trap</h6>
+                </div>
+              </div>
+
+              
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Field Visit (Paddy Field).jpeg" alt="">
+                  <h6>Paddy Diagnostic Field Visit</h6>
+                </div>
+              </div>
+
+              <div class="column fieldday">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Field Day - IPDM in Paddy.jpeg" alt="">
+                  <h6>IPDM in Paddy</h6>
+                </div>
+              </div>
+
+ 
+              <div class="column ffs">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Farmers Field School - Paddy (1).jpeg" alt="" >
+                  <h6>Farmers Field School on Paddy</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit (Mango Field).jpeg" alt="">
+                  <h6>Diagnostic Field Visit to Mango Field</h6>
+                </div>
+              </div>
+
+              <div class="column fieldday">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Field Day - Little Millet.jpeg" alt="">
+                  <h6>Field Day on Little Millet</h6>
+                </div>
+              </div>
+
+                           
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit (Mango).jpeg" alt="">
+                  <h6>Diagnostic Field Visit to Mango Field</h6>
+                </div>
+              </div>
+
+              <div class="column exhibition">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Exhibition (Value Added Products).jpeg" alt="">
+                  <h6>Exhibition on Value Added Products</h6>
+                </div>
+              </div>
+              
+              <div class="column visittokvk">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Farmers Visit to KVK - DryLand Agriculture Training.JPG" alt="">
+                  <h6>DryLand Agriculture Training</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit (Paddy Field).jpeg" alt="">
+                  <h6>Field Visit to Paddy</h6>
+                </div>
+              </div>
+
+              <div class="column ffs">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Farmers Field School - Paddy (2).jpeg" alt="">
+                  <h6>Farmers Field School Training</h6>
+                </div>
+              </div>
+
+              <div class="column methoddemo">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Method Demonstration - Dairy Management in Cow.jpeg" alt="">
+                  <h6>Dairy Management in Cow</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit (Paddy).jpeg" alt="">
+                  <h6>Paddy Diagnostic Field Visit</h6>
+                </div>
+              </div>
+
+              <div class="column visittokvk">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Farmers Visit to KVK - Kitchen Gardening Trainign.JPG" alt="">
+                  <h6>Kitchen Gardening Training</h6>
+                </div>
+              </div>
+
+              <div class="column kisangosthi">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Kisan Gosthi.JPG" alt="">
+                  <h6>Kisan Gosthi</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit.jpeg" alt="">
+                  <h6>Diagnostic Field Visit</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit (Brinjal).jpeg" alt="">
+                  <h6>Diagnostic Field Visit to Brinjal</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Diagnostic Field Visit (Onion).jpeg" alt="">
+                  <h6>Diagnostic Field Visit to Onion Field</h6>
+                </div>
+              </div>
+
+              <div class="column animal">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Animal Health Camp.jpeg" alt="">
+                  <h6>Animal Health Campaign</h6>
+                </div>
+              </div>
+
+              <div class="column methoddemo">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Method Demonstration - Fruit Fly Trap Demonstration.jpeg" alt="">
+                  <h6>Fruit Fly Trap Demonstration</h6>
+                </div>
+              </div>
+
+              <div class="column methoddemo">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Method Demonstration - Mango.jpeg" alt="">
+                  <h6>Method Demonstration - Mango Fruit Fly</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Field Visit (Banana Field).jpeg" alt="">
+                  <h6>Field Visit to Banana Field</h6>
+                </div>
+              </div>
+
+          
+              <div class="column soil">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Soil Health Campaign (1).JPG" alt="">
+                  <h6>Soil Health Campaign</h6>
+                </div>
+              </div>
+
+              <div class="column tvtalk">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - TV Talk - Ragi Cultivation.jpg" alt="">
+                  <h6>Ragi Cultivation Technqiues</h6>
+                </div>
+              </div>
+
+              <div class="column seminar">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Farmers Seminar.JPG" alt="">
+                  <h6>Farmers Seminar</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Field Visit (Rose).jpeg" alt="">
+                  <h6>Field Visit to Rose</h6>
+                </div>
+              </div>
+
+              <div class="column methoddemo">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Method Demonstration - Groundnut Seed Drill.jpeg" alt="">
+                  <h6>Groundnut Seed Drill</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Field Visit (Turmeric).jpeg" alt="">
+                  <h6>Field Visit to Turmeric</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Papaya Field Visit.jpeg" alt="">
+                  <h6>Papaya Field Visit</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - Scientist Visit to Farmers Field - Advisory to Livestock (Pig).jpeg" alt="">
+                  <h6>Advisory to Livestock Pig</h6>
+                </div>
+              </div>
+
+              <div class="column visittofarmerfield">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri  - Scientist Visit to Farmers Field - Field Visit (Tomato).jpeg" alt="">
+                  <h6><center >Tomato Field Visit</h6>
+                </div>
+              </div>
+
+              <div class="column tvtalk">
+                <div class="content">
+                  <img src="assets/images/extension-activities/KVK Krishnagiri - TV Talk - Goat Rearing Techniques.jpeg" alt="">
+                  <h6>Goat Rearing Techniques</h6>
+                </div>
+              </div>
+
+
+          <!-- END GRID -->
+          </div>
+        </div>
+      
+        <!-- ======= Blog Single Section ======= -->
+        <!-- End Blog Single Section -->
+    </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ICAR | Krishi Vigyan Kendra, </span>Krishnagiri</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Develop by <a href="https://www.facebook.com/naga.dineshkumar">DiNeSh KuMaR</a>
+        </div>
+    </div>
+  </footer> 
+  <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        const attr = location.hash
+        const ele = document.querySelector('.activity-single .active')
+        ele.classList.remove('active')
+        const actele = document.querySelector('.activity-single ' + attr)
+        actele.classList.add('active')
+        const heading = document.querySelector('.breadcrumbs h2').innerHTML = attr.split('#')[1].toUpperCase()
+
+    </script>
+
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <title>KVK | Our Teams</title>
+      <meta content="" name="description">
+      <meta content="" name="keywords">
+      <!-- Favicons -->
+      <!--<link href="assets/img/favicon.png" rel="icon">-->
+      <link rel="icon" href="assets/images/apple-touch-icon.png" >
+      <!-- Google Fonts -->
+      <link
+         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+         rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <!-- Template Main CSS File -->
+      
+      <link href="assets/css/style.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <style>
+         .team-bg {
+               background-color: #f8f9fa;
+               overflow: hidden;
+            }
+            .team .section-title {
+               padding-bottom: 15px;
+            }
+            .team .section-title .main-team-subheading {
+               font-size: 20px;
+               font-weight: 1000;
+               padding: 0;
+               line-height: 1px;
+               margin: 0 0 5px 0;
+               letter-spacing: 2px;
+               text-transform: uppercase;
+               color: #aaaaaa;
+            }
+            .team .section-title .main-team-subheading::after {
+               content: "";
+               width: 160px;
+               height: 1px;
+               display: inline-block;
+               background: #556270;
+               margin: 4px 10px;
+            }
+            .team .main-team-heading {
+               margin: 0;
+               font-size: 30px;
+               font-weight: bold;
+               text-transform: uppercase;
+               color: #556270;
+            }
+
+            .team .member {
+               position: relative;
+               box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+               padding: 15px;
+               border-radius: 20px;
+               background: #fff;
+            }
+            .team .member .pic {
+               overflow: hidden;
+               width: 160px;
+               border-radius: 8px;
+            }
+            .team .member .pic img {
+               transition: ease-in-out 0.3s;
+            }
+            .team .member:hover img {
+            transform: scale(1.1);
+            }
+            .team .member .member-info {
+               padding-left: 20px;
+            }
+            .team .member .member-heading {
+               font-weight: 700;
+               margin-bottom: 8px;
+               font-size: 20px;
+               color: #556270;
+               line-height: 1.2;
+            }
+            .team .member span {
+               display: block;
+               font-size: 18px;
+               padding-bottom: 10px;
+               position: relative;
+               font-weight: 500;
+            }
+            .team .member span::after {
+               content: '';
+               position: absolute;
+               display: block;
+               width: 100%;
+               height: 2px;
+               background: #dee2e6;
+               bottom: 0;
+               left: 0;
+            }
+            .team .member .member-para {
+               margin: 10px 10px 0 0;
+               font-size: 16px;
+            }
+            .team .member .social {
+               margin-top: 12px;
+               display: flex;
+               align-items: center;
+               justify-content: flex-start;
+            }
+            .team .member .social a {
+               transition: ease-in-out 0.3s;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               border-radius: 4px;
+               width: 32px;
+               height: 32px;
+               background: #8795a4;
+            }
+            .team .member .social a + a {
+            margin-left: 14px;
+            }
+            .team .member .social a:hover {
+               background: #41A1FD;
+            }
+            .team .member .social a .team-icon {
+               color: #fff;
+               font-size: 16px;
+               margin: 0 2px;
+            }
+            
+            .col-lg-6{
+               padding-bottom: 20px;               
+            }
+
+            .row .member-info span{
+               letter-spacing: 2px;
+               color: navy;
+            }
+            
+            /*Center Alignment of GRID
+            .row {
+               justify-content: center;
+            }
+            */           
+
+            @media screen and (max-width:980px) {
+               .team .member .pic {
+                  width:140px;
+               }
+               .team .member span{
+                  font-size: 14px;
+               }
+               .team .section-title .main-team-subheading {
+                  font-size: 10px;
+               }
+               .team .member .member-para{
+                  font-size: 12px;
+               }
+               .team .member .social a{
+                  width:22px;
+                  height: 22px;
+               }
+               .team .member .member-heading {             
+               font-size: 16px;
+               }
+               .team .main-team-heading {             
+               font-size: 22px;
+               font-weight: 600;
+               }
+            }
+            .degree{
+               font-weight: lighter;
+               padding-bottom: 4px;
+            }            
+      </style>
+
+      <!-- =======================================================
+         * Template Name: FlexStart - v1.1.1
+         * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+         * Author: BootstrapMade.com
+         * License: https://bootstrapmade.com/license/
+         ======================================================== -->
+   </head>
+   <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+      <!-- HEADER -->
+      <header class="top-header">
+         <div class="container">
+           <div class="row">
+              <div class="col-md-4 col-sm-3">
+                 <p style="font-weight: lighter; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;In Service of Rural Mass, TNBRD | <b>Thiruvannamalai District</b></p>
+               </div>
+               <div class="col-md-8 col-sm-9 text-align-right" style="text-align: right;">
+                 <span class="phone-icon"><i class="fa fa-phone"></i> +91 80982 80123</span>
+                 <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 09:00 AM - 05:00 PM (Mon - Sat)</span>
+                 <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:kvk.Krishnagiri@icar.gov.in"> kvk.Krishnagiri@icar.gov.in</a></span>
+               </div>
+             </div>
+         </div>
+       </header>
+   </body>
+   <body>
+      <!-- ======= Header ======= -->
+      <header id="header" class="header">
+         <div class="container-fluid">
+            <div class="main-logo mobile-hide" style="padding-top: 15px;">
+               <div class="icarlogo">
+                  <img src="assets/images/icarlogo.png" width="80" height="80" alt="icar-logo">
+               </div>
+               <!-- <img src="assets/images/header.png" width="700" height="100" alt="top-header-pic">   -->
+               <div class="header-title">
+                  <center>
+                     <h1 style="font-weight: bold; font-style: normal; color: green;"><b>ICAR - Krishi Vigyan Kendra </b></h1>
+                     <h3 class="kgiridt">Krishnagiri District, Tamil Nadu</h3>
+                  </center>
+               </div>
+               <div class="tnbrdlogo">
+                  <img src="assets/images/tnbrdlogo.png" onclick="darkMode()" width="80" height="80" alt="tnbrd-logo">
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- End Header -->
+
+      <style>
+         @media screen and (max-width:980px){
+           .mobile-nav-toggle{
+             display: none;
+           }
+         }
+       </style>
+
+      <main id="main">
+         <i class="bi bi-list mobile-nav-toggle"></i>
+         <!-- ======= Breadcrumbs ======= -->
+         <section class="breadcrumbs">
+            <div class="container">
+               <ol>
+                  <li><a href="index.html">Home</a></li>
+                  <li>Our Team</li>
+               </ol>
+               <h2>Our Team</h2>
+            </div>
+         </section>
+         <!-- End Breadcrumbs -->
+         <!-- ======= Counts Section ======= -->
+         <section id="team" class="team team-bg py-5">
+            <div class="container">
+       
+             <div class="section-title">
+               <p class="main-team-heading">Senior Scientist & Head</p>
+             </div>
+       
+             <div class="row">
+       
+               <div class="col-lg-6">
+                <div class="member d-flex align-items-start">
+                  <div class="pic"><img src="assets/images/teams/sundarraj.jpg" class="img-fluid" alt="">                                                                       
+                  </div>
+                  <div class="member-info">
+                        <p class="member-heading">Dr. T. Sundarraj</p>
+                        <span><b>Senior Scientist & Head</b></span> 
+                        <p class="member-para">
+                           <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; Ph. D in Plant Pathology</b><br>
+                           <i class="fa fa-phone team-icon"></i><strong> &nbsp;+91 94438 88644</strong> | 
+                           <i class="fa fa-calendar-o"></i><b> DOJ: 06-Dec-04</b>
+                           <br>
+                           <a href="mailto:drsundarraj@yahoo.com" style="color: black;"><i class="fa fa-envelope team-icon"></i><strong> drsundarraj@yahoo.com</strong></a>
+                         </p>                         
+                                                 
+                     <div class="social">
+                        <a href="https://www.facebook.com/sundar.raj.319247"><i class="fa fa-facebook team-icon"></i></a>
+                        <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                        <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                        <a href=""> <i class="fa fa-linkedin team-icon"></i> </a>
+                        <!--
+                           <a><i class="fa fa-calendar-check-o team-icon"></i>
+                        </a>
+                         -->                        
+                     </div>
+                  </div>                                 
+                </div>  
+               </div>
+             </div>               
+            </div>
+
+            <div class="container">
+
+               <div class="section-title" style="padding-top: 20px;">
+                 <p class="main-team-heading">Subject Matter Specialist</p>
+               </div>
+         
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/horticulture.jpg" class="img-fluid" alt="" >
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. T. I. Ramesh Babu</p>
+                           <span><b>Horticulture</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M. Sc (Horti) in Fruit Crop</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 89032 89738</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 06-Dec-04</b><br>
+                              <a href="mailto:mdismail706@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> mail2hortiramesh@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div> 
+                  
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/soilscience.jpg" class="img-fluid" alt="" >
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. K. Gunasekar</p>
+                           <span><b>Soil Science</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M. Sc (Agri) in Soil Science and Agrl. Chem.</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 94869 88256</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 13-Dec-04</b><br>
+                              <a href="mailto:kgunasekar16@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> kgunasekar16@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+
+               </div>  
+
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/animalscience.jpg" class="img-fluid" alt="" >
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Dr. S. Ramesh</p>
+                           <span><b>Animal Science</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M.V.Sc (Livestock Production and Mgmt.)</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 97860 83230</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 20-Jan-14</b><br>
+                              <a href="mailto:rameshsiddhan1979@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> rameshsiddhan1979@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href="https://in.linkedin.com/in/ramesh-dr-27740618"><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div> 
+                  
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/agricultureextension.jpg" class="img-fluid" alt="" >
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. S. Senthilkumar</p>
+                           <span><b>Agricultural Extension</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M.Sc (Agri) in Agrl.Extension</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 96595 57716</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 15-Oct-09</b><br>
+                              <a href="mailto:senthilbalaji2012@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> senthilbalaji2012@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+
+               </div>
+
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/homescience.jpg" class="img-fluid" alt="" >
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mrs. S. Poomathi</p>
+                           <span><b>Home Science</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M. Sc (Home Science Extension), M. Phil</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 97866 79933</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 01-Apr-95</b><br>
+                              <a href="mailto:mathiyokash@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> mathiyokash@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div> 
+                  
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/agronomy.JPG" class="img-fluid" alt="" >
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. S. Udhayan</p>
+                           <span><b>Agronomy</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M. Sc (Agri) in Agronomy</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 88257 46262</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 03-Mar-21</b><br>
+                              <a href="mailto:senthilbalaji2012@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> udhayanbird@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href="https://www.facebook.com/meiporul2021"><i class="fa fa-facebook team-icon"></i></a>
+                              <a href="#"><i class="fa fa-twitter team-icon"></i></a>
+                              <a href="#"><i class="fa fa-instagram team-icon"></i></a>
+                              <a href="#"><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+
+               </div>
+
+            </div>
+
+
+            <div class="container">
+
+               <div class="section-title" style="padding-top: 20px;">
+                 <p class="main-team-heading">Programme Assistant</p>
+               </div>
+         
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/agricultureengg.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. S. Mohamed Ismail</p>
+                           <span><b>Agricultural Engineering</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M. E (Agrl.Engg) in Soil and Water Convo.</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 94437 969684</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 04-Dec-04</b><br>
+                              <a href="mailto:mdismail706@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> mdismail706@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/fm.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. S. Karthikeyan</p>
+                           <span><b>Farm Manager</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; B. Sc (Agri)</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 94897 13188</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 16-Jul-12</b><br>
+                              <a href="mailto:karthikagri333@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> karthikagri333@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href="https://www.facebook.com/karthikeyan.keyan.587"><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href="https://www.instagram.com/karthikagri333"><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>                                 
+               </div>     
+               <div class="row">
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                       <div class="pic"><img src="assets/images/teams/cp.jpg" class="img-fluid" alt="">
+                       </div>
+                       <div class="member-info">
+                           <p class="member-heading">Mr. N. Dinesh Kumar</p>
+                           <span><b>Computer Programmer</b></span>                  
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; B. Tech (Information Technology)</b><br>
+                              <i class="fa fa-phone team-icon"></i><strong> &nbsp;+91 96002 13742</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 01-Apr-21</b><br>
+                           <a href="mailto:naga.dineshkumar@outlook.com" style="color: black;"><i class="fa fa-envelope team-icon"></i><strong> naga.dineshkumar@outlook.com</strong></a>
+                              </p>
+                              <div class="social">
+                                 <a href="https://www.facebook.com/naga.dineshkumar"><i class="fa fa-facebook team-icon"></i></a>
+                                 <a href="https://www.instagram.com/me_dk_dineshkumar/"><i class="fa fa-instagram team-icon"></i></a>
+                                 <a href="https://www.linkedin.com/in/me-dineshkumar-n/"><i class="fa fa-linkedin team-icon"></i> </a>
+                                 <a href="https://github.com/me-dk-dineshkumar"> <i class="fa fa-github team-icon"></i> </a>
+                                 <a href="https://steamcommunity.com/id/mr_dineshkumarn/"> <i class="fa fa-steam team-icon"></i> </a>
+                                 <a href="https://youtube.com/channel/UCrAU-sBPfiTe1IAN3m8gDhQ"> <i class="fa fa-youtube team-icon"></i> </a>
+                              </div>
+                       </div>
+                  </div> 
+               </div>             
+            </div> 
+
+            <div class="container">
+
+               <div class="section-title" style="padding-top: 20px;">
+                 <p class="main-team-heading">Admin Staff</p>
+               </div>
+         
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/accountant.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Ms. E. Kavitha</p>
+                           <span><b>Assistant</b></span>
+                          
+                              <p class="member-para">
+                                 <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; B. Sc (Agri)</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 63814 71794</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 17-Apr-23</b><br>
+                              <a href="mailto:khavisrv1298@gmail.com" style="color: black;"><i class="fa fa-envelope team-icon"></i><strong> khavisrv1298@gmail.com</strong></a>
+                              </a>
+                           </p>                            
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>                                                                   
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/steno.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Ms. N. Mownica</p>
+                           <span><b>Stenographer Grade III</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; B. E (Electrical and Electronics Engg.)</b><br>
+                           <i class="fa fa-phone team-icon"></i>
+                           <strong> &nbsp;+91 63694 70637</strong> | 
+                           <i class="fa fa-calendar-o"></i><b> DOJ: 02-Sep-24</b><br>
+                           <a href="mailto:mickyoct24@gmail.com" style="color: black;"><i class="fa fa-envelope team-icon"></i><strong> mickyoct24@gmail.com</strong></a>
+                           </a>                        
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>   
+            <div class="container">
+
+               <div class="section-title" style="padding-top: 20px;">
+                 <p class="main-team-heading">Driver</p>
+               </div>
+
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/jeep.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. G. Mothish</p>
+                           <span><b>Driver (Jeep)</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; B. Sc (Computer Science)</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 90477 15604</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 12-Feb-20</b><br>
+                              <a href="mailto:gmothish97@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> gmothish97@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href="https://www.facebook.com/mothish.govindaraj"><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href="https://www.instagram.com/mothish.g/"><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="pic">
+                           <img src="assets/images/teams/tractor.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                           <p class="member-heading">Mr. A. Ponnusamy</p>
+                           <span><b>Driver (Tractor)</b></span>
+                           <p class="member-para">
+                              <i class="fa fa-bookmark-o"></i><b class="degree">&nbsp; M. Sc (Maths), B. Ed</b><br>
+                              <i class="fa fa-phone team-icon"></i>
+                              <strong> &nbsp;+91 98655 40468</strong> | 
+                              <i class="fa fa-calendar-o"></i><b> DOJ: 28-May-14</b><br>
+                              <a href="mailto:ponnu684@gmail.com" style="color:black">
+                              <i class="fa fa-envelope team-icon"></i><strong> ponnu684@gmail.com</strong>
+                              </a>
+                           </p>
+                           <div class="social">
+                              <a href=""><i class="fa fa-facebook team-icon"></i></a>
+                              <a href=""><i class="fa fa-twitter team-icon"></i></a>
+                              <a href=""><i class="fa fa-instagram team-icon"></i></a>
+                              <a href=""><i class="fa fa-linkedin team-icon"></i> </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>  
+            
+            <div class="container">
+
+               <div class="section-title" style="padding-top: 20px;">
+                 <p class="main-team-heading">Supporting Staff</p>
+               </div>
+
+               <div class="row">
+
+                  <div class="col-lg-6">
+                     <div class="member d-flex align-items-start">
+                        <div class="member-info">
+                           <p class="member-heading">1. Mr. M. Subramani (Farm Attender)</p>
+                           <p class="member-heading">2. Mr. G. Muniraj (Farm Attender)</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>              
+      </section>
+         <!-- End Counts Section -->
+      </main>
+      <!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+   <div class="container">
+       <div class="copyright">
+         &copy; Copyright <strong><span>ICAR | Krishi Vigyan Kendra, </span>Krishnagiri</strong>. All Rights Reserved
+       </div>
+       <div class="credits">
+         Develop by <a href="https://www.facebook.com/naga.dineshkumar">DiNeSh KuMaR</a>
+       </div>
+   </div>
+</footer>
+<!-- End Footer -->
+
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+         class="bi bi-arrow-up-short"></i></a>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/purecounter/purecounter.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
+
